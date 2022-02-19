@@ -7,11 +7,23 @@
     <title>Snake Game</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
+  <style>
+    body{
+      background-color: black;
+    }
+    h1{
+      color: floralwhite;
+    }
+    #gameCanvas{
+      display: block;
+      margin: 0 auto;
+      border: 1px rgb(80, 80, 80) solid;
+    }
+  </style>
   <body>
     <h1>Snake Game</h1>
-    <div class="canvas-div">
-      <canvas id="myCanvas" class="canvas"> </canvas>
-    </div>
+
+    <canvas id="gameCanvas" width="800" height="600"><canvas>
   </body>
   <script src="./script.js"></script>
 </html>
