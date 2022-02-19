@@ -1,0 +1,7 @@
+.canvas-div {
+  border: 2px #000 solid;
+
+  width: 800px;
+  height: 600px;
+  margin: 0 auto;
+}
